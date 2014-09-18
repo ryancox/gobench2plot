@@ -1,0 +1,192 @@
+?   	github.com/spf13/hugo	[no test files]
+=== RUN TestFixUrl
+--- PASS: TestFixUrl (0.00 seconds)
+PASS
+ok  	github.com/spf13/hugo/commands	0.013s
+?   	github.com/spf13/hugo/create	[no test files]
+=== RUN TestPretty
+--- PASS: TestPretty (0.00 seconds)
+=== RUN TestUgly
+--- PASS: TestUgly (0.00 seconds)
+=== RUN TestMakePath
+--- PASS: TestMakePath (0.00 seconds)
+=== RUN TestMakeToLower
+--- PASS: TestMakeToLower (0.00 seconds)
+=== RUN TestUrlize
+--- PASS: TestUrlize (0.00 seconds)
+=== RUN TestMakePermalink
+--- PASS: TestMakePermalink (0.00 seconds)
+=== RUN TestMakePathRelative
+--- PASS: TestMakePathRelative (0.00 seconds)
+PASS
+ok  	github.com/spf13/hugo/helpers	0.007s
+=== RUN TestPermalink
+--- PASS: TestPermalink (0.00 seconds)
+=== RUN TestParseTaxonomies
+--- PASS: TestParseTaxonomies (0.00 seconds)
+=== RUN TestDegenerateEmptyPageZeroLengthName
+--- PASS: TestDegenerateEmptyPageZeroLengthName (0.00 seconds)
+=== RUN TestDegenerateEmptyPage
+--- PASS: TestDegenerateEmptyPage (0.00 seconds)
+=== RUN TestCreateNewPage
+--- PASS: TestCreateNewPage (0.00 seconds)
+=== RUN TestPageWithDelimiter
+--- PASS: TestPageWithDelimiter (0.00 seconds)
+=== RUN TestPageWithShortCodeInSummary
+--- PASS: TestPageWithShortCodeInSummary (0.00 seconds)
+=== RUN TestPageWithEmbeddedScriptTag
+--- PASS: TestPageWithEmbeddedScriptTag (0.00 seconds)
+=== RUN TestTableOfContents
+--- PASS: TestTableOfContents (0.00 seconds)
+=== RUN TestPageWithMoreTag
+--- PASS: TestPageWithMoreTag (0.00 seconds)
+=== RUN TestPageWithDate
+--- PASS: TestPageWithDate (0.00 seconds)
+=== RUN TestWordCount
+--- PASS: TestWordCount (0.00 seconds)
+=== RUN TestCreatePage
+--- PASS: TestCreatePage (0.00 seconds)
+=== RUN TestDegenerateInvalidFrontMatterShortDelim
+ERROR: 2014/09/16 Unable to read frontmatter at filepos 45: EOF
+--- PASS: TestDegenerateInvalidFrontMatterShortDelim (0.00 seconds)
+=== RUN TestShouldRenderContent
+--- PASS: TestShouldRenderContent (0.00 seconds)
+=== RUN TestDifferentFrontMatterVarTypes
+--- PASS: TestDifferentFrontMatterVarTypes (0.00 seconds)
+=== RUN TestDegenerateInvalidFrontMatterLeadingWhitespace
+--- PASS: TestDegenerateInvalidFrontMatterLeadingWhitespace (0.00 seconds)
+=== RUN TestSectionEvaluation
+--- PASS: TestSectionEvaluation (0.00 seconds)
+=== RUN TestLayoutOverride
+--- PASS: TestLayoutOverride (0.00 seconds)
+=== RUN TestSliceToLower
+--- PASS: TestSliceToLower (0.00 seconds)
+=== RUN TestDegenerateDateFrontMatter
+--- PASS: TestDegenerateDateFrontMatter (0.00 seconds)
+=== RUN TestParsingDateInFrontMatter
+--- PASS: TestParsingDateInFrontMatter (0.00 seconds)
+=== RUN TestDegenerateMissingFolderInPageFilename
+--- PASS: TestDegenerateMissingFolderInPageFilename (0.00 seconds)
+=== RUN TestNewPageWithFilePath
+--- PASS: TestNewPageWithFilePath (0.00 seconds)
+=== RUN TestPermalinkValidation
+--- PASS: TestPermalinkValidation (0.00 seconds)
+=== RUN TestPermalinkExpansion
+--- PASS: TestPermalinkExpansion (0.00 seconds)
+=== RUN TestRSSOutput
+--- PASS: TestRSSOutput (0.01 seconds)
+=== RUN TestNonSC
+--- PASS: TestNonSC (0.00 seconds)
+=== RUN TestPositionalParamSC
+--- PASS: TestPositionalParamSC (0.00 seconds)
+=== RUN TestNamedParamSC
+--- PASS: TestNamedParamSC (0.00 seconds)
+=== RUN TestInnerSC
+--- PASS: TestInnerSC (0.00 seconds)
+=== RUN TestInnerSCWithMarkdown
+--- PASS: TestInnerSCWithMarkdown (0.00 seconds)
+=== RUN TestEmbeddedSC
+--- PASS: TestEmbeddedSC (0.00 seconds)
+=== RUN TestUnbalancedQuotes
+--- PASS: TestUnbalancedQuotes (0.00 seconds)
+=== RUN TestDegenerateNoFiles
+--- PASS: TestDegenerateNoFiles (0.00 seconds)
+=== RUN TestDegenerateNoTarget
+--- PASS: TestDegenerateNoTarget (0.00 seconds)
+=== RUN TestFileTarget
+--- PASS: TestFileTarget (0.00 seconds)
+=== RUN TestFileTargetUgly
+--- PASS: TestFileTargetUgly (0.00 seconds)
+=== RUN TestFileTargetPublishDir
+--- PASS: TestFileTargetPublishDir (0.00 seconds)
+=== RUN TestDegenerateRenderThingMissingTemplate
+--- PASS: TestDegenerateRenderThingMissingTemplate (0.01 seconds)
+=== RUN TestAddInvalidTemplate
+--- PASS: TestAddInvalidTemplate (0.01 seconds)
+=== RUN TestRenderThing
+--- PASS: TestRenderThing (0.01 seconds)
+=== RUN TestRenderThingOrDefault
+--- PASS: TestRenderThingOrDefault (0.01 seconds)
+=== RUN TestTargetPath
+--- PASS: TestTargetPath (0.00 seconds)
+=== RUN TestDraftAndFutureRender
+--- PASS: TestDraftAndFutureRender (0.00 seconds)
+=== RUN TestSkipRender
+--- PASS: TestSkipRender (0.01 seconds)
+=== RUN TestAbsUrlify
+--- PASS: TestAbsUrlify (0.01 seconds)
+	site_test.go:363: Rendering with BaseUrl "http://auth/bub" and CanonifyUrls set true
+	site_test.go:363: Rendering with BaseUrl "http://auth/bub" and CanonifyUrls set false
+=== RUN TestOrderedPages
+--- PASS: TestOrderedPages (0.00 seconds)
+=== RUN TestGroupedPages
+--- PASS: TestGroupedPages (0.00 seconds)
+=== RUN TestWeightedTaxonomies
+--- PASS: TestWeightedTaxonomies (0.00 seconds)
+=== RUN TestPageCount
+--- PASS: TestPageCount (0.01 seconds)
+=== RUN TestSiteInfoParams
+--- PASS: TestSiteInfoParams (0.01 seconds)
+=== RUN TestSiteInfoPermalinks
+--- PASS: TestSiteInfoPermalinks (0.00 seconds)
+=== RUN TestSitemapOutput
+--- PASS: TestSitemapOutput (0.01 seconds)
+=== RUN TestSitePossibleTaxonomies
+--- PASS: TestSitePossibleTaxonomies (0.00 seconds)
+=== RUN TestGt
+--- PASS: TestGt (0.00 seconds)
+=== RUN TestFirst
+--- PASS: TestFirst (0.00 seconds)
+=== RUN TestWhere
+--- PASS: TestWhere (0.00 seconds)
+PASS
+BenchmarkParsePage	     100	  17946519 ns/op
+ok  	github.com/spf13/hugo/hugolib	1.962s
+?   	github.com/spf13/hugo/livereload	[no test files]
+=== RUN TestDegenerateCreatePageFrom
+--- PASS: TestDegenerateCreatePageFrom (0.00 seconds)
+=== RUN TestStandaloneCreatePageFrom
+--- PASS: TestStandaloneCreatePageFrom (0.00 seconds)
+=== RUN TestPageShouldRender
+--- PASS: TestPageShouldRender (0.00 seconds)
+=== RUN TestPageHasFrontMatter
+--- PASS: TestPageHasFrontMatter (0.00 seconds)
+=== RUN TestExtractFrontMatter
+--- PASS: TestExtractFrontMatter (0.00 seconds)
+=== RUN TestExtractFrontMatterDelim
+--- PASS: TestExtractFrontMatterDelim (0.00 seconds)
+PASS
+BenchmarkLongFormRender	   50000	     37764 ns/op
+ok  	github.com/spf13/hugo/parser	2.263s
+=== RUN TestIgnoreDotFilesAndDirectories
+--- PASS: TestIgnoreDotFilesAndDirectories (0.00 seconds)
+=== RUN TestEmptySourceFilesystem
+--- PASS: TestEmptySourceFilesystem (0.00 seconds)
+=== RUN TestAddFile
+--- PASS: TestAddFile (0.00 seconds)
+PASS
+ok  	github.com/spf13/hugo/source	0.004s
+=== RUN TestHTMLRedirectAlias
+--- PASS: TestHTMLRedirectAlias (0.00 seconds)
+=== RUN TestFileTranslator
+--- PASS: TestFileTranslator (0.00 seconds)
+=== RUN TestFileTranslatorBase
+--- PASS: TestFileTranslatorBase (0.00 seconds)
+=== RUN TestTranslateUglyUrls
+--- PASS: TestTranslateUglyUrls (0.00 seconds)
+=== RUN TestTranslateDefaultExtension
+--- PASS: TestTranslateDefaultExtension (0.00 seconds)
+PASS
+ok  	github.com/spf13/hugo/target	0.008s
+=== RUN TestChainZeroTransformers
+--- PASS: TestChainZeroTransformers (0.00 seconds)
+=== RUN TestAbsUrlify
+--- PASS: TestAbsUrlify (0.00 seconds)
+PASS
+BenchmarkChain	  200000	      7925 ns/op
+ok  	github.com/spf13/hugo/transform	1.686s
+=== RUN TestCutUsageMessage
+--- PASS: TestCutUsageMessage (0.00 seconds)
+PASS
+ok  	github.com/spf13/hugo/utils	0.005s
+?   	github.com/spf13/hugo/watcher	[no test files]
