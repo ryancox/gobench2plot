@@ -1,0 +1,18 @@
+PASS
+BenchmarkWrite_32B_NoIndex     50000         42528 ns/op       0.75 MB/s         564 B/op         15 allocs/op
+BenchmarkWrite_1KB_NoIndex     50000         41809 ns/op      24.49 MB/s         564 B/op         15 allocs/op
+BenchmarkWrite_4KB_NoIndex     50000         45301 ns/op      90.42 MB/s         565 B/op         15 allocs/op
+BenchmarkWrite_10KB_NoIndex    50000         63720 ns/op     160.70 MB/s         566 B/op         15 allocs/op
+BenchmarkWrite_32B_WithIndex       50000         56857 ns/op       0.56 MB/s         598 B/op         16 allocs/op
+BenchmarkWrite_1KB_WithIndex       50000         64118 ns/op      15.97 MB/s         598 B/op         16 allocs/op
+BenchmarkWrite_4KB_WithIndex       50000         61010 ns/op      67.14 MB/s         598 B/op         16 allocs/op
+BenchmarkWrite_10KB_WithIndex      20000         75882 ns/op     134.95 MB/s         600 B/op         16 allocs/op
+BenchmarkRead_32B_NoCache     200000         11641 ns/op       2.75 MB/s        2915 B/op         22 allocs/op
+BenchmarkRead_1KB_NoCache     200000         14390 ns/op      71.16 MB/s        4971 B/op         24 allocs/op
+BenchmarkRead_4KB_NoCache     100000         30219 ns/op     135.54 MB/s       23920 B/op         27 allocs/op
+BenchmarkRead_10KB_NoCache     50000         44559 ns/op     229.80 MB/s       56696 B/op         29 allocs/op
+BenchmarkRead_32B_WithCache  1000000          2198 ns/op      14.55 MB/s        2289 B/op          5 allocs/op
+BenchmarkRead_1KB_WithCache  1000000          1411 ns/op     725.57 MB/s        2295 B/op          5 allocs/op
+BenchmarkRead_4KB_WithCache   500000          4923 ns/op     831.89 MB/s       14598 B/op          7 allocs/op
+BenchmarkRead_10KB_WithCache      200000         12822 ns/op     798.59 MB/s       36199 B/op         11 allocs/op
+ok      _/Users/ryanc/diskv 50.143s
